@@ -1,4 +1,5 @@
 .feed{
+    padding-bottom: 48px;
     &__item{
         margin-top: 100px;
         display: flex;
@@ -14,6 +15,28 @@
         border-radius: 84.5px;
         object-fit: cover;
         margin-right: 62px;
-    }    
+    }   
+    &__text{
+        width: 680px;
+    } 
+    &__name{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__count{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__descr{margin-top: 10px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
     
 }

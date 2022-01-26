@@ -1,4 +1,8 @@
 .button {
+    &:hover{
+        box-shadow: 3px 3px 20px #C70101;
+        border: none; 
+    }
     &_mini{
         width: 131px;
         height: 40px;
@@ -26,6 +30,8 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF
+      
+
     
 }
 
