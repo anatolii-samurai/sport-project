@@ -1,0 +1,19 @@
+.feed{
+    &__item{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+
+        &:nth-child(2){
+            margin-top: 70px;
+        }
+    }
+    &__img{
+        width: 169px;
+        height: 169px;
+        border-radius: 84.5px;
+        object-fit: cover;
+        margin-right: 62px;
+    }    
+    
+}

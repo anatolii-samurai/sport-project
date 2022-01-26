@@ -5,16 +5,15 @@
     line-height: 1.2;
     font-weight: 700;
     color: #0d0d0d;
+    text-transform: uppercase;
     &_consultation{
         text-align: left;
         line-height: 1.2;
         font-weight: 700;
-        text-transform: uppercase;
         color: #ffffff;
             }
     &_catalogue{
         font-weight: 700;
         color: #0d0d0d;
-        text-transform: uppercase;
     }        
 }
