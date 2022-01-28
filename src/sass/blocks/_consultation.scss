@@ -1,12 +1,20 @@
 .consultation{
     padding: 100px 0px 92px 0px;
     background: url(../../img/bg2_363.jpg) center (center/cover) no-repeat;
-    height: 680px;
+    min-height: 680px;
     &__subtitle{
         margin-top: 80px;
         font-size: 20px;
         line-height: 1.2;
         font-weight: 700;
         color: #ffffff;
+    }
+    .error{
+        color: #ffffff;
+        border: 1px solid red;
+        margin-bottom: 15px;
+    }
+    label.error{
+        border: none;
     }
 }

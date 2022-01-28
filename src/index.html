@@ -93,10 +93,10 @@
             по подбору пульсометра</h2>
         <div class="consultation__subtitle">Просто заполните форму заявки <br>
             и мы перезвоним вам в течении 10 минут</div>
-        <form action="#" class="feed-form">
-            <input type="text" required name="text" placeholder="Введите ваше имя">
-            <input type="number" required name="number" placeholder="Ваш телефон">
-            <input type="email" required name="email" placeholder="Ваш email">
+        <form id="consultation-form" action="#"  class="feed-form">
+            <input type="text"  name="name" placeholder="Введите ваше имя">
+            <input type="number"  name="phone" placeholder="Ваш телефон">
+            <input type="email"  name="email" placeholder="Ваш email">
             <button class="button button_consultation">заказать кОНСУЛЬТАЦИЮ</button>
         </form>
     </div>
@@ -415,9 +415,9 @@
         <h2 class="modal__title">Просто заполните форму заявки</h2>
         <div class="modal__subtitle">и мы перезвоним вам в течении 10 минут</div>
         <form action="#" class="feed-form feed-form_mt25">
-            <input type="text" required name="text" placeholder="Введите ваше имя">
-            <input type="number" required name="number" placeholder="Ваш телефон">
-            <input type="email" required required name="email" placeholder="Ваш email">
+            <input type="text"  name="name" placeholder="Введите ваше имя">
+            <input type="number"  name="phone" placeholder="Ваш телефон">
+            <input type="email"  name="email" placeholder="Ваш email">
             <button class="button button_consultation">заказать кОНСУЛЬТАЦИЮ</button>
         </form> 
     </div>
@@ -425,9 +425,9 @@
         <div class="modal__close">&times;</div>
         <h2 class="modal__title">Ваш заказ:</h2>
         <div class="modal__subtitle">Пульсометр Polar FT1</div>
-        <form action="#" class="feed-form feed-form_mt25">
-            <input type="text" required name="text" placeholder="Введите ваше имя">
-            <input type="number" required name="number" placeholder="Ваш телефон">
+        <form action="#" class="feed-form">
+            <input type="text" required name="name" placeholder="Введите ваше имя">
+            <input type="number" required name="phone" placeholder="Ваш телефон">
             <input type="email" required name="email" placeholder="Ваш email">
             <button class="button button_consultation">заказать кОНСУЛЬТАЦИЮ</button>
         </form> 
@@ -444,6 +444,7 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
